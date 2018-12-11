@@ -1,0 +1,78 @@
+.inline{
+    display: inline-block;
+}
+h1{
+    word-wrap: break-word;
+}
+p{
+    word-wrap: break-word;
+}
+.Notice{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background: #FFDEAD;
+    width: auto;
+    height: auto;
+}
+.Notice.child{
+    position: absolute;
+    left: 41.5%;
+    top: 11%;
+    width: auto;
+    height: 300px;
+}
+textarea{
+    resize: none;
+    position: absolute;
+    font-size: 1.6em;
+    width: 300px;
+}
+.textarea.text{
+    top: 20%;
+}
+
+.Notice-header{
+    background: #FFDAB9;
+    font-size: 2em;
+    margin-top: 4px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+.Notice-text{
+    word-wrap: break-word;
+    background: #FFDEAD;
+    font-size: 1.2em;
+    width: 300px;
+    height: 250px;
+    text-align: justify;
+}
+
+button{
+    font-size: 1.2em;
+    width: 170px;
+    height: 80px;
+}
+
+.buttonNotice.back{
+    background: #A9A9A9;
+    position: absolute;
+    left: 45%;
+}
+.buttonNotice.remove{
+    background: #800000;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+}
+.buttonNotice.save{
+    background: #00FF00;
+    position: absolute;
+    top: 47%;
+    left: 40%;
+}
+.buttonNotice.add{
+    background: #dda66d;
+    position: absolute;
+    left: 45%;
+}
